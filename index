@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>基隆市115學年度國小暨幼兒園教師聯合甄選統計表</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, 'Microsoft JhengHei', sans-serif;
+            background-color: #fffdf7; /* 溫暖的象牙白背景 */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(230, 81, 0, 0.12); /* 帶有暖橘色的陰影 */
+            overflow: hidden;
+        }
+
+        h2 {
+            text-align: center;
+            color: #ffffff;
+            background-color: #ef6c00; /* 活力橘標題 */
+            margin: 0;
+            padding: 22px 15px;
+            font-size: 22px;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #ffe0b2;
+            font-size: 15px;
+            margin-top: 5px;
+            letter-spacing: 1px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 14px 18px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f57c00; /* 明亮的橘色表格標題 */
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            position: sticky;
+            top: 0;
+        }
+
+        td {
+            border-bottom: 1px solid #ffe0b2;
+            font-size: 15px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fff8e1; /* 柔和的淡黃色斑馬紋 */
+        }
+
+        tr:hover {
+            background-color: #ffecb3; /* 滑鼠懸停的暖黃色 */
+            transition: background-color 0.2s ease;
+        }
+
+        /* 總計列的特殊樣式：對比色強調 */
+        .total-row {
+            font-weight: bold;
+            background-color: #ffe082 !important; 
+            color: #d84315;
+        }
+
+        .total-row td {
+            border-bottom: none;
+            font-size: 16px;
+        }
+
+        /* 備註區塊樣式 */
+        .note {
+            background-color: #fff3e0; /* 淺橘色背景 */
+            border-left: 5px solid #ff9800; /* 橘色邊框 */
+            padding: 15px;
+            margin: 20px;
+            font-size: 14px;
+            color: #e65100;
+            line-height: 1.6;
+            border-radius: 0 6px 6px 0;
+        }
+
+        .highlight-rate {
+            color: #c62828; /* 強調色的深紅色 */
+            font-weight: bold;
+        }
+        
+        .column-no {
+            width: 50px;
+            color: #616161;
+        }
+
+        /* 響應式設計：在手機上可水平滑動，電腦上可垂直滾動 */
+        .table-responsive {
+            overflow-x: auto;
+            max-height: 700px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>基隆市115學年度公立國小暨幼兒園教師聯合甄選<br><div class="subtitle">報名人數與錄取率統計表（含增額名額）</div></h2>
+        
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="column-no">項次</th>
+                        <th>甄選類科</th>
+                        <th>報名人數</th>
+                        <th>總甄選名額<br>(含增額)</th>
+                        <th>最新錄取率</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td class="column-no">1</td><td style="text-align: left;">國小一般類教師</td><td>174</td><td>54</td><td>31.03%</td></tr>
+                    <tr><td class="column-no">2</td><td style="text-align: left;">國小原住民重點學校一般教師</td><td>1</td><td>1</td><td class="highlight-rate">100.00%*</td></tr>
+                    <tr><td class="column-no">3</td><td style="text-align: left;">國小英語專長教師</td><td>14</td><td>8</td><td>57.14%</td></tr>
+                    <tr><td class="column-no">4</td><td style="text-align: left;">國小專任輔導教師(含合聘)</td><td>3</td><td>5</td><td class="highlight-rate">166.67%*</td></tr>
+                    <tr><td class="column-no">5</td><td style="text-align: left;">國小特教身心障礙類教師</td><td>66</td><td>39</td><td>59.09%</td></tr>
+                    <tr><td class="column-no">6</td><td style="text-align: left;">幼兒園教師</td><td>150</td><td>14</td><td>9.33%</td></tr>
+                    <tr><td class="column-no">7</td><td style="text-align: left;">學前特殊教育教師</td><td>12</td><td>13</td><td class="highlight-rate">108.33%*</td></tr>
+                    <tr class="total-row">
+                        <td colspan="2">合計</td>
+                        <td>420</td>
+                        <td>134</td>
+                        <td>31.90%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="note">
+            <strong>* 備註說明：</strong> <br>
+            1. <strong>名額更新：</strong>本表已依據最新公告之「增額錄取名額」更新，總缺額合計為 134 名。<br>
+            2. <strong>報名人數足額/不足額情形：</strong><br>
+             - 「國小原住民重點學校一般教師」報名人數與缺額數相等（1人）。<br>
+             - 「國小專任輔導教師(含合聘)」與「學前特殊教育教師」皆出現<strong>報名人數少於開缺名額</strong>的不足額狀況。<br>
+             以上科目之錄取率皆達 100% 以上，只要報考者達到最低錄取門檻標準，實質錄取率即視為 100%。
+        </div>
+    </div>
+
+</body>
+</html>
